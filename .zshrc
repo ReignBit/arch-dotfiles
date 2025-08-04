@@ -31,6 +31,7 @@ alias kssh="kitten ssh"
 alias neofetch="fastfetch"
 alias notepad="leafpad"
 alias ccat="pygmentize -g"
+alias vim="nvim"
 
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
