@@ -13,6 +13,12 @@ plugins=(
 	zsh-autosuggestions
 )
 
+#pywal for colors from wallpaper
+(cat ~/.cache/wal/sequences &)
+
+#pywal support for TTYs
+source ~/.cache/wal/colors-tty.sh
+
 
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 autoload -U compinit && compinit
