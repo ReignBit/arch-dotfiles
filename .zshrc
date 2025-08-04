@@ -37,5 +37,11 @@ ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 # Zoxide
 eval "$(zoxide init --cmd cd zsh)"
 
+# SSH Agent
+eval "$(ssh-agent -s)"
+
+# Add our github key
+ssh-add ~/.ssh/github_ssh_key
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
